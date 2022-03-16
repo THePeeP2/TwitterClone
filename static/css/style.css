@@ -1,0 +1,207 @@
+/*
+Common
+***************************/
+html,
+body {
+  height: 100%;
+}
+
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.main-header {
+    display: flex;
+    padding-left: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.main-header img {
+    width: 60px;
+
+}
+.main-header h1 {
+    padding-left: 20px;
+}
+
+/*
+Post
+***************************/
+
+.post_form {
+  padding: 20px 40px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  padding: 10px;
+}
+
+.post_form textarea {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 90%;
+  height: 100px;
+  resize: none;
+}
+
+.post_form input[type="text"] {
+  border: 1px solid #ccc;
+  width: 90%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+ 
+  padding-top: 8px;
+}
+
+.post_form input {
+  border: 0px;
+  background: white;
+  padding: 5px 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post_form .my-icon {
+  width: 50px;
+  padding: 5px 15px 10px 10px;
+}
+
+.post_form .my-icon img {
+  width: 50px;
+  border-radius: 50px;
+  border: 1px solid white;
+}
+
+.post_form .bottom-area {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+#file {
+    width: 86%;
+    border: 0;
+}
+
+.post_form .button {
+
+    padding: 8px;
+    background: rgb(29, 161, 242);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0;
+
+}
+#choosefile {
+    background-color: white;
+    width: 80%;
+
+}
+
+a#cancel {
+    text-decoration: none;
+    border: 1px solid;
+    background-color: grey;
+    padding: 7px;
+    color: white;
+    border-radius: 5px;
+}
+.posts ul {
+  padding: 0;
+}
+
+.posts li {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 40px;
+  list-style: none;
+  position: relative;
+}
+
+.posts li .menu_icon {
+  width: 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.posts li .menu {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 10px 15px;
+  font-size: 13px;
+  border-radius: 3px;
+}
+
+.posts li .menu a {
+  text-decoration: none;
+}
+
+.posts li .logo {
+  flex-basis: 15%;
+}
+
+.posts li .logo img {
+  width: 60%;
+}
+
+.posts li .name_body {
+  flex-basis: 85%;
+}
+
+.posts li .name_body .name {
+  font-weight: bold;
+}
+
+.posts li .name_body .datetime {
+  color: gray;
+}
+
+@media screen and (max-width: 500px) {
+  .posts li .name_body .name {
+    font-size: 20px;
+  }
+}
+
+/*
+Main
+*************************************/
+
+/* .main {
+  width: 100%;
+  max-width: 600px;
+  border-left: 1px solid rgb(235, 238, 240);
+  border-right: 1px solid rgb(235, 238, 240);
+  text-align: left;
+}
+
+.main .main-header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.main .main-header .logo {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.main .main-header h1 {
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.main .main-header {
+  padding: 10px;
+  border-bottom: 1px solid rgb(235, 238, 240);
+} */
